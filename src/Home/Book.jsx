@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types';
 const Book = ({book}) => {
     return (
         <div className="lg:mt-24 mt-10 lg:space-y-10">
@@ -28,5 +29,9 @@ const Book = ({book}) => {
         </div>
     );
 };
+
+Book.propTypes = {
+    book: PropTypes.object
+}
 
 export default Book;
