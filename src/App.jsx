@@ -13,7 +13,7 @@ function App() {
       .then(data => setBookInfo(data))
   },[])
   return (
-    <div className='lg:w-[1200px] lg:mx-auto text-center'>
+    <div className='lg:w-[1200px] lg:mx-auto text-center m-2'>
       <Navbar></Navbar>
       <Hero></Hero>
       <div className="grid lg:grid-cols-3 lg:gap-6 gap-4">
