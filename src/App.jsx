@@ -18,7 +18,7 @@ function App() {
       <Hero></Hero>
       <div className="grid lg:grid-cols-3 lg:gap-6 gap-4">
       {
-        bookInfo.map(books => <Book key={books.bookId} books={books}></Book>)
+        bookInfo.map(books => <Book key={books.bookId} book={books}></Book>)
       }
       </div>
     </div>
