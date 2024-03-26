@@ -1,13 +1,18 @@
 const Hero = () => {
     return (
-        <div className="hero bg-base-200">
-            <div className="hero-content flex-col lg:flex-row-reverse">
-                <img src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg" className="max-w-sm rounded-lg shadow-2xl" />
-                <div>
-                    <h1 className="text-5xl font-bold">Box Office News!</h1>
-                    <p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                    <button className="btn btn-primary">Get Started</button>
+
+        <div>
+            <div className="hero bg-[#1313130d] rounded-2xl lg:mt-10">
+                <div className="hero-content flex-col lg:flex-row-reverse  lg:gap-24">
+                    <img src="https://i.ibb.co/B66s3VK/pngwing-com-1.png" className="w-48 lg:w-60" />
+                    <div className="space-y-12">
+                        <h1 className="lg:text-5xl text-3xl font-bold">Books to freshen <br /> up your bookshelf</h1>
+                        <button className="btn bg-[#38b762] text-lg font-semibold text-white">View The list</button>
+                    </div>
                 </div>
+            </div>
+            <div className="text-4xl font-bold mt-24">
+                <p>Books</p>
             </div>
         </div>
     );
