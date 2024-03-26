@@ -21,6 +21,7 @@ function App() {
         bookInfo.map(books => <Book key={books.bookId} book={books}></Book>)
       }
       </div>
+      {/* <PagesToRead></PagesToRead> */}
     </div>
   )
 }
