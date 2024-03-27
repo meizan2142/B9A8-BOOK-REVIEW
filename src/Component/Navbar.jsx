@@ -19,7 +19,7 @@ const Navbar = () => {
                 <a className="text-2xl font-bold">Book Vibe</a>
             </div>
             <div className="navbar-center hidden lg:flex">
-                <ul className="menu menu-horizontal px-1 gap-8">
+                <ul className="menu menu-horizontal px-1 gap-3">
                     <li><a className="text-lg font-semibold text-[#38b762] border border-[#38b762]">Home</a></li>
                     <li>
                         <a className="text-lg font-normal">Listed Books</a>
