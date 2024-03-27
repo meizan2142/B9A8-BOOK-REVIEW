@@ -1,7 +1,9 @@
 import PropTypes from 'prop-types';
+import { NavLink } from 'react-router-dom';
 const Book = ({book}) => {
     return (
         <div className="lg:mt-24 mt-10 lg:space-y-10">
+            <NavLink to='/bookdetails'>
             <div>
                 <div className="card bg-base-100 shadow-2xl">
                     <figure className="px-10 pt-10">
@@ -26,6 +28,7 @@ const Book = ({book}) => {
                     </div>
                 </div>
             </div>
+            </NavLink>
         </div>
     );
 };

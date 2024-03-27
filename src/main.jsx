@@ -7,6 +7,7 @@ import PagesToRead from './pages/PagesToRead.jsx'
 import IslamicBooks from './pages/IslamicBooks.jsx'
 import EBook from './pages/EBook.jsx'
 import MainLayout from './Component/MainLayout.jsx'
+import BookDetails from './Component/BookDetails.jsx'
 
 
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
       {
         path: '/ebook',
         element: <EBook></EBook>
+      },
+      {
+        path: '/bookdetails',
+        element: <BookDetails></BookDetails>
       },
     ]
   },
