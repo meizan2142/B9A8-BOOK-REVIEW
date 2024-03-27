@@ -34,7 +34,6 @@ const Navbar = () => {
                 <a className="btn text-lg font-semibold text-white bg-[#5ac6d1]">Sign Up</a>
             </div>
         </div>
-
     );
 };
 

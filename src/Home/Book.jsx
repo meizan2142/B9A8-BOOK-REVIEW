@@ -9,15 +9,15 @@ const Book = ({book}) => {
                     </figure>
                     <div className="card-body">
                         <div className="space-x-3">
-                            <button className="btn btn-sm rounded-full text-[#23BE0A] font-bold">Young Adult</button>
-                            <button className="btn btn-sm rounded-full text-[#23BE0A] font-bold">Identity</button>
+                            <button className="btn btn-sm rounded-full text-[#23BE0A] font-bold">{book.booksTypeOne}</button>
+                            <button className="btn btn-sm rounded-full text-[#23BE0A] font-bold">{book.booksTypeTwo}</button>
                         </div>
                         <div className="mt-4 space-y-4">
                             <h1 className="text-2xl font-bold">{book.bookName}</h1>
                             <p className="#131313cc text-base font-medium">By : {book.author}</p>
                         </div>
                         <div className="flex justify-evenly items-center">
-                            <h1 className="font-medium">Fiction</h1>
+                            <h1 className="font-medium">{book.category}</h1>
                             <div className="flex gap-2">
                                 <p className="font-medium">{book.rating}</p>
                                 <img className="w-6" src="https://i.ibb.co/swTKnNX/icons8-star-48.png" alt="" />
