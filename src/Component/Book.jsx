@@ -2,12 +2,12 @@ import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 const Book = ({book}) => {
     return (
-        <div className="lg:mt-24 mt-10 lg:space-y-10">
-            <NavLink to='/bookdetails'>
+        <div className="lg:mt-24 mt-10">
+            <NavLink to={`/bookdetails/${book.bookId}`}>
             <div>
                 <div className="card bg-base-100 shadow-2xl">
                     <figure className="px-10 pt-10">
-                        <img src={book.image} alt="Shoes" className="rounded-xl w-52 lg:w-[280px] lg:h-[250px] bg-[#1313130d] shadow-xl" />
+                        <img src={book.image} alt="Shoes" className="rounded-xl w-52 lg:w-[280px] lg:h-[250px] bg-[#1313130d] shadow-xl"/>
                     </figure>
                     <div className="card-body">
                         <div className="space-x-3">

@@ -1,0 +1,116 @@
+[
+    {
+        "bookId": 1,
+        "bookName": "The Morning Gift",
+        "author": "Eva Ibbotson",
+        "image": "https://i.ibb.co/vjBpryX/lf.webp",
+        "review": "A timeless classic that captures the essence of the roaring twenties with its vivid characters and themes of love, ambition, and disillusionment.",
+        "totalPages": 180,
+        "rating": 4.3,
+        "booksTypeOne": "Fiction", 
+        "booksTypeTwo": "Romance", 
+        "category": "Classic",
+        "tags": [
+            "Classic",
+            "Romance",
+            "Drama"
+        ],
+        "publisher": "Pan Macmillan",
+        "yearOfPublishing": 2008
+    },
+    {
+        "bookId": 2,
+        "bookName": "An Ocean Apart",
+        "author": "Sarah Lee",
+        "image": "https://i.ibb.co/Qpn8pfr/lf-1.webp",
+        "review": "A dystopian masterpiece that remains eerily relevant, exploring themes of surveillance, government control, and the loss of individual freedom.",
+        "totalPages": 328,
+        "rating": 0,
+        "booksTypeOne": "Dystopian",
+        "booksTypeTwo": "Political",
+        "category": "Fiction",
+        "tags": [
+            "Dystopian",
+            "Political",
+            "Science Fiction"
+        ],
+        "publisher": "Secker & Warburg",
+        "yearOfPublishing": 1949
+    },
+    {
+        "bookId": 3,
+        "bookName": "The Island",
+        "author": "Adrian McKinty",
+        "image": "https://i.ibb.co/GPBVZkj/lf-2.webp",
+        "review": "A poignant exploration of racial injustice and moral growth in a small Southern town, told through the eyes of a young girl.",
+        "totalPages": 281,
+        "rating": 4.0,
+        "booksTypeOne": "Drama",
+        "booksTypeTwo": "Social Justice",
+        "category": "Fiction",
+        "tags": [
+            "Classic",
+            "Coming-of-age",
+            "Legal drama"
+        ],
+        "publisher": "J. B. Lippincott & Co.",
+        "yearOfPublishing": 1960
+    },
+    {
+        "bookId": 4,
+        "bookName": "Boy in a China Shop",
+        "author": "Keith Brymer Jones",
+        "image": "https://i.ibb.co/BsjzwG4/lf-3.webp",
+        "review": "A seminal work of teenage angst and rebellion, capturing the disillusionment and confusion of youth in a post-war society.",
+        "totalPages": 277,
+        "rating": 2.3,
+        "booksTypeOne": "Young Adult",
+        "booksTypeTwo": "Identity",
+        "category": "Fiction",
+        "tags": [
+            "Coming-of-age",
+            "Literary Fiction",
+            "Teenage"
+        ],
+        "publisher": "Little, Brown and Company",
+        "yearOfPublishing": 1951
+    },
+    {
+        "bookId": 5,
+        "bookName": "Constant Comedy",
+        "author": "Art Bell",
+        "image": "https://i.ibb.co/mq7SgzG/9781646040902-p0-v4-s600x595.jpg",
+        "review": "A timeless romance filled with wit and social commentary, exploring the complexities of love and marriage in Regency-era England.",
+        "totalPages": 432,
+        "rating": 4.6,
+        "booksTypeOne": "Romance",
+        "booksTypeTwo": "Satire",
+        "category": "Classic",
+        "tags": [
+            "Romance",
+            "Classic",
+            "Satire"
+        ],
+        "publisher": "T. Egerton, Whitehall",
+        "yearOfPublishing": 1813
+    },
+    {
+        "bookId": 6,
+        "bookName": "Ocean Liners",
+        "author": "JPeter Newall",
+        "image": "https://i.ibb.co/FgC3Lfb/lf-4.webp",
+        "review": "An enchanting adventure set in Middle-earth, following the journey of Bilbo Baggins as he accompanies a group of dwarves on a quest to reclaim their homeland.",
+        "totalPages": 310,
+        "rating": 4.9,
+        "booksTypeOne": "Adventure",
+        "booksTypeTwo": "Epic",
+        "category": "Fantasy",
+        "tags": [
+            "Adventure",
+            "Epic Fantasy",
+            "Middle-earth"
+        ],
+        "publisher": "George Allen & Unwin",
+        "yearOfPublishing": 1937
+    }
+]
