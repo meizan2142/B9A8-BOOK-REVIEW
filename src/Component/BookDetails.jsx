@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 const BookDetails = () => {
     const bookInfo = useLoaderData();
     const { bookId } = useParams();
@@ -9,6 +11,8 @@ const BookDetails = () => {
         console.log(catchBook);
         setSelectedBook(catchBook)
     }, [bookId, bookInfo])
+    const handleToast1 = () => {toast('Added to Read Books list')}
+    const handleToast2 = () => {toast('Added to Wish List ')}
     return (
         <div className='lg:w-[1200px] lg:mx-auto text-center m-2 lg:mt-12'>
             <div className="hero bg-base-200 rounded-xl">
@@ -42,10 +46,10 @@ const BookDetails = () => {
                                 <p className="font-bold">{selectedBook.rating}</p>
                             </div>
                             <div className="flex items-center gap-6">
-                                <a className="flex items-center justify-center px-4 py-2 hover: text-base font-medium leading-6 text-black whitespace-no-wrap bg-white border-2 rounded-xl shadow-sm hover:bg-transparent  hover:border-white focus:outline-none">
+                                <a onClick={handleToast1} className="flex items-center justify-center px-4 py-2 hover: text-base font-medium leading-6 text-black whitespace-no-wrap bg-white border-2 rounded-xl shadow-sm hover:bg-transparent  hover:border-white focus:outline-none">
                                     Read
                                 </a>
-                                <a className="flex items-center justify-center px-4 py-2 hover: text-base font-medium leading-6 text-black whitespace-no-wrap bg-[#5ac6d1] border-2 rounded-xl shadow-sm hover:bg-transparent  hover:border-white focus:outline-none">
+                                <a onClick={handleToast2} className="flex items-center justify-center px-4 py-2 hover: text-base font-medium leading-6 text-black whitespace-no-wrap bg-[#5ac6d1] border-2 rounded-xl shadow-sm hover:bg-transparent  hover:border-white focus:outline-none">
                                     Wishlist
                                 </a>
                             </div>
@@ -53,15 +57,9 @@ const BookDetails = () => {
                     </div>
                 </div>
             </div>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
 
 export default BookDetails;
-/**
- * 
- * 
- * <a href="#_" class="flex items-center justify-center px-4 py-2 text-base font-medium leading-6 text-gray-500 whitespace-no-wrap bg-white border-2 border-transparent rounded-full shadow-sm hover:bg-transparent hover:text-white hover:border-white focus:outline-none">
-Button Text
-</a>
- */
