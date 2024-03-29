@@ -12,8 +12,8 @@ const Navbar = () => {
                     <NavLink to="/" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>Home</NavLink>
                     <NavLink to="/listedbooks" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>Listed Books</NavLink>
                     <NavLink to="/pagesToRead" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>Pages to Read</NavLink>
-                    <NavLink to="/islamicbooks" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>Islamic Books</NavLink>
-                    <NavLink to="/ebook" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>E-Books</NavLink>
+                    <NavLink to="/aboutus" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>AboutUs</NavLink>
+                    <NavLink to="/login" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>Login</NavLink>
                     </ul>
                 </div>
                 <a className="text-2xl font-bold">Book Vibe</a>
@@ -23,8 +23,8 @@ const Navbar = () => {
                     <NavLink to="/" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>Home</NavLink>
                     <NavLink to="/listedbooks" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>Listed Books</NavLink>
                     <NavLink to="/pagesToRead" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>Pages to Read</NavLink>
-                    <NavLink to="/islamicbooks" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>Islamic Books</NavLink>
-                    <NavLink to="/ebook" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>E-Books</NavLink>
+                    <NavLink to="/aboutus" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>AboutUs</NavLink>
+                    <NavLink to="/login" className={({isActive}) => isActive? "text-lg rounded-lg font-bold text-[#38b762] border-2 px-2 border-[#38b762]" : "text-lg font-normal"}>Login</NavLink>
                 </ul>
             </div>
             <div className="navbar-end gap-2 lg:gap-4 hidden lg:flex">

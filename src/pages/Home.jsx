@@ -4,7 +4,6 @@ import { useLoaderData } from "react-router-dom";
 
 const Home = () => {
     const bookInfo = useLoaderData()
-    const {bookId, bookName} = bookInfo;
 
     return (
         <div  className='lg:w-[1200px] lg:mx-auto text-center m-2'>

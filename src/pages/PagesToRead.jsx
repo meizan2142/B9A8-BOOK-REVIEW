@@ -2,38 +2,38 @@ import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from 'recharts';
 const colors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042', 'red', 'pink'];
 const data = [
     {
-        name: 'Page A',
-        uv: 4000,
+        name: 'The Great Gatsby',
+        uv: 180,
         pv: 2400,
         amt: 2400,
     },
     {
-        name: 'Page B',
-        uv: 3000,
+        name: '1984',
+        uv: 328,
         pv: 1398,
         amt: 2210,
     },
     {
-        name: 'Page C',
-        uv: 2000,
+        name: 'To Kill a Mockingbird',
+        uv: 281,
         pv: 9800,
         amt: 2290,
     },
     {
-        name: 'Page D',
-        uv: 2780,
+        name: 'The Catcher in the Rye',
+        uv: 277,
         pv: 3908,
         amt: 2000,
     },
     {
-        name: 'Page E',
-        uv: 1890,
+        name: 'Pride and Prejudic',
+        uv: 432,
         pv: 4800,
         amt: 2181,
     },
     {
-        name: 'Page F',
-        uv: 2390,
+        name: 'The Hobbit',
+        uv: 310,
         pv: 3800,
         amt: 2500,
     },
@@ -53,10 +53,10 @@ const TriangleBar = (props) => {
 };
 const PagesToRead = () => {
     return (
-        <div className='lg:w-[1200px] lg:mx-auto text-center m-2 lg:mt-12'>
+        <div className='lg:w-[1200px] lg:mx-auto text-center m-2 lg:mt-12 w-[500px]' >
             <BarChart 
-                width={800}
-                height={300}
+                width={1100}
+                height={500}
                 data={data}
                 margin={{
                     top: 20,
